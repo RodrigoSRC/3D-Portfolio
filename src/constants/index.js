@@ -28,33 +28,33 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Sobre",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Trabalhos",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contato",
     },
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Desenvolvedor Front-End",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Desenvolvedor Back-End",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Desenvolvedor Mobile",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Especialista em automações",
       icon: creator,
     },
   ];
@@ -116,66 +116,54 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Desenvolvedor Autodidata",
+      company_name: "Udemy",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Junho 2022 - Dezembro 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Neste momento estava conhecendo a programação e descobrindo mais sobre como funciona e o mercado.",
+        "Meus primeiros passos foram com cursos da udemy e videos no youtube.",
+        "Primeiros contatos com HTML, CSS e JS.",
+        "Percebi que apenas um curso gravado e desatualizado não me daria uma imersão no conteúdo tão grande quanto queria. Portanto, comecei a buscar um curso que tinha aulas ao vivo com uma comunidade ativa e suporte de profissionais qualificados.",
+      ],
+    },
+
+    {
+      title: "Desenvolvedor em Formação",
+      company_name: "Kenzie Academy",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Dezembro 2022 - Janeiro 2024",
+      points: [
+        "Acabei decidindo começar com um curso que tinha um suporte de Desenvolvedores profissionais e projetos práticos.",
+        "Entregava a cada sprint um projeto prático de tudo o que tinha aprendido na semana, sendo projetos Front, Back e FullStack. Inclusive meu primeiro projeto em equipe.",
+        "Desenvolvimento de Soft Skills como: Gestão do Tempo, Inteligência Emocional e Trabalho em Equipe.",
+        "Experiência em linguagens e tecnologias como: HTML5, CSS3, CSS in JS, Tailwind, Javascript, TypeScript, React, NextJS, Nuxt, Node, Python, Express, TypeORM, MySQL e Django.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Desenvolvedor Full Stack",
+      company_name: "Freelancer",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "Junho 2024 - Atualmente",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Após ter conhecido mais tecnologias como Wordpress, MongoDB, React Native, ThreeJS, decidi focar em trabalhar como freelancer e aprender mais na prática.",
+        "Entrega de serviço excepcional para cada cliente, ouvindo exigências e às atendendo.",
+        "Responsável por apresentar o andamento do projeto em reuniões e esclarecendo possíveis dúvidas do cliente.",
+        "Autogestão de tempo e metas.",
       ],
-    },
+    }
   ];
   
   const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+      name: "Cátia Coelho",
       designation: "CFO",
-      company: "Acme Co",
+      company: "Just Cold Air",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
@@ -198,25 +186,25 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Just Cold Air",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Página Institucional realizada para empresa dos EUA, Cálifornia. Foi pedido uma página em wordpress com prazo de 3 dias. Entregue no prazo, mesmo sem um modelo base apresentado.",
       tags: [
         {
-          name: "react",
+          name: "wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "elementorPRO",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "ninjaForms",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://justcoldair.com",
     },
     {
       name: "Job IT",
