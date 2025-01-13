@@ -160,9 +160,9 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "Muito satisfeita com o resultado do trabalho. Fez exatamente o que eu estava esperando e precisando. Profissionalismo e criatividade foram incríveis! Meu agradecimento e com certeza, trabalharei com ele novamente em uma nova oportunidade!.",
       name: "Cátia Coelho",
-      designation: "CFO",
+      designation: "Marketing",
       company: "Just Cold Air",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
@@ -186,21 +186,29 @@ import {
   
   const projects = [
     {
-      name: "Just Cold Air",
+      name: "Salão na mão",
       description:
-        "Página Institucional realizada para empresa dos EUA, Cálifornia. Foi pedido uma página em wordpress com prazo de 3 dias. Entregue no prazo, mesmo sem um modelo base apresentado.",
+        "Projeto FullStack MERN .",
       tags: [
         {
-          name: "wordpress",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "elementorPRO",
+          name: "reactNative",
           color: "green-text-gradient",
         },
         {
-          name: "ninjaForms",
+          name: "mongoDB",
           color: "pink-text-gradient",
+        },
+        {
+          name: "express",
+          color: "red-text-gradient",
+        },
+        {
+          name: "next",
+          color: "violet-text-gradient",
         },
       ],
       image: carrent,
