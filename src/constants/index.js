@@ -12,17 +12,22 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    postgresql,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    python,
+
+
+    salaonamao,
+    kenziemovie,
+    schoolapi,
     threejs,
+    udemy,
+    logo,
+    kenzielogo,
+    wordpress,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -69,6 +74,10 @@ import {
       icon: css,
     },
     {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -80,14 +89,11 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+
     {
       name: "Node JS",
       icon: nodejs,
@@ -101,16 +107,25 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "postgreSQL",
+      icon: postgresql,
     },
+
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
     {
-      name: "figma",
-      icon: figma,
+      name: "wordpress",
+      icon: wordpress,
     },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
-      name: "docker",
-      icon: docker,
+      name: "python",
+      icon: python,
     },
   ];
   
@@ -118,8 +133,9 @@ import {
     {
       title: "Desenvolvedor Autodidata",
       company_name: "Udemy",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: udemy,
+      // iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "Junho 2022 - Dezembro 2022",
       points: [
         "Neste momento estava conhecendo a programação e descobrindo mais sobre como funciona e o mercado.",
@@ -132,7 +148,7 @@ import {
     {
       title: "Desenvolvedor em Formação",
       company_name: "Kenzie Academy",
-      icon: tesla,
+      icon: kenzielogo,
       iconBg: "#E6DEDD",
       date: "Dezembro 2022 - Janeiro 2024",
       points: [
@@ -145,8 +161,8 @@ import {
     {
       title: "Desenvolvedor Full Stack",
       company_name: "Freelancer",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: logo,
+      iconBg: "#E6DEDD",
       date: "Junho 2024 - Atualmente",
       points: [
         "Após ter conhecido mais tecnologias como Wordpress, MongoDB, React Native, ThreeJS, decidi focar em trabalhar como freelancer e aprender mais na prática.",
@@ -160,7 +176,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Muito satisfeita com o resultado do trabalho. Fez exatamente o que eu estava esperando e precisando. Profissionalismo e criatividade foram incríveis! Meu agradecimento e com certeza, trabalharei com ele novamente em uma nova oportunidade!.",
+        "Muito satisfeita com o resultado do trabalho. Fez exatamente o que eu estava esperando e precisando. Profissionalismo e criatividade foram incríveis! Meu agradecimento e com certeza trabalharei com ele novamente em uma nova oportunidade!.",
       name: "Cátia Coelho",
       designation: "Marketing",
       company: "Just Cold Air",
@@ -168,27 +184,27 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Nunca conheci um desenvolvedor web que realmente se preocupasse com o sucesso de seus clientes como Rodrigo.",
+      name: "Cristian",
+      designation: "Fotógrafo",
+      company: "Autônomo",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Sem dúvida um profissional que se destaca. Sempre se empenhando a entregar o melhor aos clientes.",
+      name: "Diego Rocha",
+      designation: "Desenvolvedor",
+      company: "Autônomo",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Salão na mão",
+      name: "Salão na Mão",
       description:
-        "Projeto FullStack MERN .",
+        "Projeto Full Stack Web e Mobile. Sistema de gerenciamento de agendamento para barbearias com o pagamento adiantado através da API Pagar.me. Na versão mobile é para o cliente realizar o agendamento com o corte, horário e funcionário de preferência.",
       tags: [
         {
           name: "react",
@@ -204,57 +220,57 @@ import {
         },
         {
           name: "express",
-          color: "red-text-gradient",
+          color: "blue-text-gradient",
         },
         {
-          name: "next",
-          color: "violet-text-gradient",
+          name: "nextJs",
+          color: "green-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://justcoldair.com",
+      image: salaonamao,
+      source_code_link: "https://github.com/RodrigoSRC/Barber-pro",
     },
     {
-      name: "Job IT",
+      name: "Kenzie Movie",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Projeto Front End em equipe realizado no bootcamp da Kenzie Academy. É um site de análise de filmes onde é feito o cadastro, login, notas e comentários sobre o filme. Fui responsável pela página principal, a moviePage. Nela que eram feitas as análises.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "styledComponents",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: kenziemovie,
+      source_code_link: "https://github.com/RodrigoSRC/Kenzie-Movie",
     },
     {
-      name: "Trip Guide",
+      name: "School API",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Projeto Back End em Python realizado. É uma API Rest para o gerenciamento de cursos e aulas de uma escola de modalidade EAD. Obs: Comandos dos testes no README.md.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "django",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "postgresql",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: schoolapi,
+      source_code_link: "https://github.com/RodrigoSRC/School-API",
     },
   ];
   

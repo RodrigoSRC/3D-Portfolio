@@ -20,15 +20,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import wordpress from "./tech/wordpress.png";
+import python from "./tech/python.png";
+import postgresql from "./tech/postgresql.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import udemy from "./company/udemy.png"
+import kenzielogo from "./company/kenzielogo.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import salaonamao from "./salaonamao.jpg";
+import kenziemovie from "./kenziemovie.jpg"
+import schoolapi from "./schoolapi.jpg"
 
 export {
   logo,
@@ -39,6 +40,7 @@ export {
   github,
   menu,
   close,
+
   css,
   docker,
   figma,
@@ -52,11 +54,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  wordpress,
+  python,
+  postgresql,
+
+  udemy,
+  kenzielogo,
+
+  salaonamao,
+  kenziemovie,
+  schoolapi
 };

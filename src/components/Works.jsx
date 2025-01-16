@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -24,7 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[550px]'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -71,8 +72,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>Meu trabalho</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projetos</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,11 +81,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Os projetos a seguir mostram minhas habilidades e experiência através de
+          projetos ficttícios que podem ser usados no dia a dia. Cada projeto é brevemente descrito com
+          links para repositórios de código e demonstrações. Isso reflete minha
+          capacidade de resolver problemas complexos, trabalhar com diferentes tecnologias,
+          e gerenciar projetos de forma eficaz.
         </motion.p>
       </div>
 
