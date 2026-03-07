@@ -22,14 +22,25 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import wordpress from "./tech/wordpress.png";
 import python from "./tech/python.png";
-import postgresql from "./tech/postgresql.png";
+import postgresql from "./tech/postgresql.svg";
+import nestjs from "./tech/nestjs.svg";
+import nextjs from "./tech/nextjs.svg";
+import redis from "./tech/redis.svg";
+import jest from "./tech/jest.svg";
+import supertest from "./tech/supertest.svg";
+import websocket from "./tech/websocket.svg";
+import rabbitmq from "./tech/rabbitmq.svg";
+import apexcharts from "./tech/apexCharts.png";
 
-import udemy from "./company/udemy.png"
-import kenzielogo from "./company/kenzielogo.png"
+import udemy from "./company/udemy.png";
+import kenzielogo from "./company/kenzielogo.png";
+import lqlogo from "./company/lqlogo.svg";
 
 import salaonamao from "./salaonamao.jpg";
-import kenziemovie from "./kenziemovie.jpg"
-import schoolapi from "./schoolapi.jpg"
+import kenziemovie from "./kenziemovie.jpg";
+import schoolapi from "./schoolapi.jpg";
+import jca from "./jca.jpg";
+import testtecvix from "./TestTecVix.jpg";
 
 export {
   logo,
@@ -40,7 +51,6 @@ export {
   github,
   menu,
   close,
-
   css,
   docker,
   figma,
@@ -57,11 +67,20 @@ export {
   wordpress,
   python,
   postgresql,
-
   udemy,
   kenzielogo,
-
+  lqlogo,
+  nestjs,
+  nextjs,
+  redis,
+  jest,
+  supertest,
+  websocket,
+  rabbitmq,
+  apexcharts,
   salaonamao,
   kenziemovie,
-  schoolapi
+  schoolapi,
+  jca,
+  testtecvix,
 };

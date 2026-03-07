@@ -10,10 +10,10 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
         options={{
@@ -21,15 +21,15 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
+          alt="web-development"
+          className="w-16 h-16 object-contain"
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -47,17 +47,20 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Sou um desenvolvedor de software qualificado com experiência em TypeScript e
-        JavaScript e experiência em frameworks como React, Node.js,
-        Three.js. Também especialista em automações do whatsapp, instagram e outros canais de atendimento. 
-        Aprendo rápido e colaboro com os clientes para
-        criar soluções eficientes, escaláveis ​e fáceis de usar que resolvam seus devidos
-        problemas. Vamos trabalhar juntos para dar vida às suas ideias!
+        Desenvolvedor Full Stack com foco em JavaScript e TypeScript, atuando no
+        desenvolvimento de APIs e aplicações web utilizando NestJS, Next.js,
+        React e React Native. Experiência na construção de sistemas completos,
+        incluindo blogs, backoffices administrativos e aplicativos mobile com
+        comunicação em tempo real via WebSockets. Sólida experiência com
+        PostgreSQL, MongoDB, Docker e práticas de CI/CD com GitHub Actions.
+        Aplicação de boas práticas como Clean Code, arquitetura modular,
+        segurança baseada no OWASP Top 10 e documentação de APIs com Swagger.
+        Vamos trabalhar juntos para dar vida às suas ideias!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
