@@ -10,16 +10,16 @@ import {
   nodejs,
   mongodb,
   postgresql,
-  git,
+  // git,
   docker,
   nestjs,
-  nextjs,
+  // nextjs,
   redis,
   jest,
-  supertest,
+  // supertest,
   websocket,
   rabbitmq,
-  apexcharts,
+  // apexcharts,
   salaonamao,
   kenziemovie,
   schoolapi,
@@ -29,10 +29,11 @@ import {
   logo,
   kenzielogo,
   lqlogo,
+  testbetalent,
 } from "../assets";
 
 // Placeholder para imagem do TesteBeTalent - usar testtecvix por enquanto
-const betalent = testtecvix;
+// const betalent = testtecvix;
 
 export const navLinks = [
   {
@@ -386,7 +387,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: betalent,
+    image: testbetalent,
     source_code_link: "https://github.com/RodrigoSRC/TesteBeTalent",
   },
 ];
