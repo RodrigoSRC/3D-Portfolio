@@ -31,6 +31,9 @@ import {
   lqlogo,
 } from "../assets";
 
+// Placeholder para imagem do TesteBeTalent - usar testtecvix por enquanto
+const betalent = testtecvix;
+
 export const navLinks = [
   {
     id: "about",
@@ -352,6 +355,39 @@ const projects = [
     ],
     image: schoolapi,
     source_code_link: "https://github.com/RodrigoSRC/School-API",
+  },
+  {
+    name: "TesteBeTalent",
+    description:
+      "API RESTful de processamento de pagamentos multi-gateway construída com AdonisJS 6. Sistema inteligente que realiza tentativas de cobrança em cascata, com fallback automático entre gateways por prioridade e suporte a reembolso. Inclui autenticação JWT, validação robusta com VineJS e testes com Japa.",
+    tags: [
+      {
+        name: "adonisjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vinejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "japa",
+        color: "green-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: betalent,
+    source_code_link: "https://github.com/RodrigoSRC/TesteBeTalent",
   },
 ];
 
