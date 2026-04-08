@@ -41,7 +41,7 @@ import kenziemovie from "./kenziemovie.jpg";
 import schoolapi from "./schoolapi.jpg";
 import jca from "./jca.jpg";
 import testtecvix from "./TestTecVix.jpg";
-import testebetalent from "./TestBetaTalent.jpg";
+import testebetalent from "./TestBeTalent.jpg";
 
 export {
   logo,

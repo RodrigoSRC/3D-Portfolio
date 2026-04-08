@@ -25,15 +25,12 @@ import {
   schoolapi,
   jca,
   testtecvix,
+  testebetalent,
   udemy,
   logo,
   kenzielogo,
   lqlogo,
-  testbetalent,
 } from "../assets";
-
-// Placeholder para imagem do TesteBeTalent - usar testtecvix por enquanto
-// const betalent = testtecvix;
 
 export const navLinks = [
   {
@@ -387,7 +384,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: testbetalent,
+    image: testebetalent,
     source_code_link: "https://github.com/RodrigoSRC/TesteBeTalent",
   },
 ];
